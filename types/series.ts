@@ -5,7 +5,7 @@ export interface Series{
     description:string | null;
 }
 
-export interface SeriesCreate{
+export interface CreateSeries{
     name:string;
     description: string | null;
 }
